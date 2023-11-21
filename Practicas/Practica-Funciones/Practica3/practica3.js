@@ -5,29 +5,30 @@ Al final la funcion devolvera el resultado
 
 'use strict'
 
-function getMult_Suma(a,b,repeat){
+function Multiplicacion(multiplicador, multiplicando){
     let Suma;
-    let result;
 
-    Suma=(a+b);
-    alert(Suma);
+    Suma = 0;
     
-    
-    if(repeat >= 1){
-        alert("El bucle se repetira "+repeat+" vez/veces");
+    if(multiplicador >= 1 && multiplicando != 0){
+        alert("La suma se repetira "+multiplicador+" vez/veces");
 
-        for(let contador = 1; contador <= repeat ; contador++){
-             result=(Suma+(a+b)*contador)
-             alert(result); 
+        for(let contador = 0; contador < multiplicador ; contador++){
+             Suma = Suma+multiplicando;
         }
-    } else if(repeat == '' || repeat == null){
-        alert(repeat);
-        alert("No se repetira la suma");
-    }
+        
+        alert(Suma);
+
+    } else if(multiplicador == 0) { 
+            alert("La suma no se repetira");
+    } else {
+        alert("No has ingresado un valor");
+        alert("La suma no se repetira");
+    } 
 } 
 
-let a = Number(prompt("Ingresa el primer numero"));
-let b = Number(prompt("Ingresa el segundo numero"));
-let repeat = Number(prompt("Ingresa el numero de veces que quieres repetir la suma"));
+let primerNumero = Number(prompt("Ingresa el primer numero"));
+let segundoNumero = Number(prompt("Ingresa el multiplicando"));
 
-getMult_Suma(a,b, repeat);
+Multiplicacion(primerNumero, segundoNumero);
+

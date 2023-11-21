@@ -2,7 +2,7 @@
 
 function calculateAge(year){
     let currentYear = 2023;
-    let age = (currentYear - yearofBirthday);
+    let age = (currentYear - year);
     alert(age);
 }
 
