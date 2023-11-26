@@ -17,5 +17,5 @@ let refigerador = new Electrodomestico("GNB"+ " 2017" +" acero"+ " $380"+ " HJ-5
 alert(refigerador.marca, refigerador.año, refigerador.material, refigerador.precio, refigerador.codigo);
 
 let lavadora = new Electrodomestico("KOP" + " 2020" + " chapa metalica" + " $300" + " G41KFJ315D");
-alert(lavadora.marca, lavadora.año, lavadora.material, lavadora.precio, lavadora.codigo)
+alert(lavadora.marca, lavadora.año, lavadora.material, lavadora.precio, lavadora.codigo);
 
