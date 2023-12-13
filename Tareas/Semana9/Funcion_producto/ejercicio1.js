@@ -1,0 +1,2 @@
+/*Crear un objeto para almacenar la informacion de un producto
+*/

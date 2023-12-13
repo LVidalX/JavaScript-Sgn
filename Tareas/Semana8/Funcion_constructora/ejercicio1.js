@@ -17,3 +17,4 @@ alert(refigerador.marca, refigerador.año, refigerador.material, refigerador.pre
 
 let lavadora = new Electrodomestico("KOP" + " 2020" + " chapa metalica" + " $300" + " G41KFJ315D");
 alert(lavadora.marca, lavadora.año, lavadora.material, lavadora.precio, lavadora.codigo);
+

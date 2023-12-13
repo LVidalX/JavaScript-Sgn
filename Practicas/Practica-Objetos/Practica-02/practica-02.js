@@ -1,13 +1,13 @@
 'use strict'
 
-let nombre = 'Juan';
+let nombre = 'Carlos';
 let apodo = nombre;
 
 alert(nombre);
 alert(apodo);
 
 let persona = {
-    firstname: 'Juan' 
+    firstname: 'Carlos' 
 }
 
 //Transfiere la direccion de los valores a otro objeto
