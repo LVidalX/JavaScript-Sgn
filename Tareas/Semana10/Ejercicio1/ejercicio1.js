@@ -2,6 +2,10 @@
 
 //Escribir un programa que extraiga la parte numerica de una placa de un auto
 
-let placa = "CHF-3G7";
+let placa = "CHF-357";
 
-alert(placa.length);
+let tamaño = placa.length;
+
+let numero_placa = (placa.substring(4, tamaño));
+
+alert(numero_placa);
