@@ -36,9 +36,20 @@ validarPromedio(promedio);
 
 alert(correo);
 
-let pos = (correo.indexOF("<"));
+let usuario;
 
-usuario = (correo)
+function obtenerUsuario(usuario){
+let pos;
+
+pos = (correo.indexOf("@"));
+usuario = (correo.substring(0, pos));
+
+alert(usuario);
+return usuario;
+
+}
+
+obtenerUsuario(usuario)
 
 
 
