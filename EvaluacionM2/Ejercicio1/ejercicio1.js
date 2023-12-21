@@ -34,8 +34,6 @@ function validarPromedio(promedio){
 
 validarPromedio(promedio);
 
-alert(correo);
-
 let usuario;
 
 function obtenerUsuario(usuario){
