@@ -1,26 +1,17 @@
 'use strict'
 
-//WeakSet
+//Desestructuracion de objetos 
 
-let visitedSet = new WeakSet();
+let options = {
+    title: "Menu",
+    width: 100,
+    height: 200
+  };
+  
 
-let john = { name: "John" };
-let pete = { name: "Pete" };
-let mary = { name: "Mary" };
-
-//añadiendo usuarios
-visitedSet.add(john); //
-visitedSet.add(pete); // 
-visitedSet.add(john); // 
-
-// visitedSet tiene 2 usuarios ahora
-
-// comprobar si visitedSet contiene john
-alert(visitedSet.has(john)); // true
-
-// comprobar si visitedSet contiene mary
-alert(visitedSet.has(mary)); // false
-
-
-john = null;
-// visitedSet se limpiará automáticamente
+  //title, width, height va a tener los valores del objeto options
+  let {title, width, height} = options;
+  
+  alert(title);  // Menu
+  alert(width);  // 100
+  alert(height); // 200

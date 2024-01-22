@@ -1,28 +1,15 @@
 'use strict'
 
-//WeakMap  
-
-/*
-La primera diferencia con Map es que en WeakMap las claves deben ser objetos, no valores primitivos:
-*/
-
-let weakMap = new WeakMap();
-
-let obj = {};
-
-weakMap.set(obj, "ok"); // funciona bien (la clave es un objeto)
-
-// no puede usar un string como clave
-weakMap.set("test", "Whoops"); // Error, porque "test" no es un objeto
+//Desestructuracion de Arrays
 
 
-/*let john = { name: "John" };
+let arr = ["John", "Smith"]
 
-let weakMap = new WeakMap();
-weakMap.set(john, "...");
+// asignación desestructurante
+// fija firstName = arr[0]
+// y surname = arr[1]
+let [firstName, surname] = arr;
 
-john = null; // sobreescribe la referencia
+alert(firstName); // John
+alert(surname);  // Smith
 
-John se elimno
-
-*/ 
