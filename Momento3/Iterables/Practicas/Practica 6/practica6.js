@@ -9,7 +9,7 @@ let options = {
   };
   
 
-  //title, width, height va a tener los valores del objeto options
+  //title, width, height va a tener los valores del objeto options 
   let {title, width, height} = options;
   
   alert(title);  // Menu

@@ -15,8 +15,6 @@ let nuevasEdades = edades.concat([22,24]);
 
 let students = ["Matias", "Alexander", "Nathaly", "Alex"];
 
-              
-
 students.forEach(alert);
 
 students.forEach(

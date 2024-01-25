@@ -7,7 +7,6 @@ for(let char of word){
 alert(char);
 }
 
-
 /*
 String es iterable
 

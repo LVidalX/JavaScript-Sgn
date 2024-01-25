@@ -22,3 +22,4 @@ alert( set.size ); // 3
 for (let user of set) {
   alert(user.name); // John (luego Pete y Mary)
 }
+
